@@ -101,7 +101,8 @@ def z2():
     myRestaurant.proverka('шоколадное')
     myRestaurant.sorts()
 
-import tkinter as tk
+def z3():
+    import tkinter as tk
 
 class IceCreamStand:
     def __init__(self, name, location, hours, flavors):
